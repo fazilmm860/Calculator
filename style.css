@@ -4,6 +4,7 @@ body{
     
 }
 .calc{
+    display: inline-blockgit ;
     width: 20rem;
     height: 32rem;
     border: 2px solid yellowgreen;

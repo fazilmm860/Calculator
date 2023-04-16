@@ -16,6 +16,9 @@ function appendToInput(value) {
 function clearInput() {
     input = '';
     inputElement.value = '0';
+    window.location.reload()
+
+
 }
 
 
@@ -48,8 +51,9 @@ function operate(op) {
     if (input) {
         if (result === null) {
             result = input;
+
         } else {
-            calculate();
+            calculate()
         }
     }
     operator = op;
